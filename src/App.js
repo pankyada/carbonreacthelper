@@ -38,9 +38,6 @@ function App() {
   //   (e) => setSearchTerm(e.target.value)
   // }
   const buttonAction = (selectedRows) => {
-    selectedRows.forEach((item) => {
-      setSelectedItems((prevList => prevList + "," + item.id));
-    })
     console.log(selectedItems);
   }
 
